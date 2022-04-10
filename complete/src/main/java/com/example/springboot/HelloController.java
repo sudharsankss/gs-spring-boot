@@ -11,4 +11,8 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+	@GetMapping("/login")
+	public String login() {
+		return "Login !";
+	}
 }
